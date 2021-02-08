@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="carmera_parameter" type="get_image.py" name="get_image" output="screen"/>
+
+  <node pkg="carmera_parameter" type="regulate_exposure.py" name="regulate_exposure" output="screen"/>
+</launch>
